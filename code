@@ -1,0 +1,19 @@
+print("Enter the number of jobs")
+n=int(input())
+print("Enter job start time, end time and earnings")
+lst=[]
+for i in range(n):
+    start=int(input())
+    end=int(input())
+    earnings=int(input())
+    lst.append(earnings)
+   
+print("The number of tasks and earnings available for others")
+print("Task:",(n-1))
+arr=[100,300,500]
+
+#earnings.sort()
+sum=0
+for i in range(0, len(arr)-1):    
+   sum = sum + arr[i]
+print("Earnings: ", sum)
